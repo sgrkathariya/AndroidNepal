@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android Nepal</string>
+    <string name="app_text_name">Login</string>
+    <string name="app_text_button">Login</string>
+    <string name="dashboard_button">Back</string>
+    <string name="text_view_name_signup">Don\'t have an Account?</string>
+    <string name="signup_button">Sign up</string>
+    <string name="textView">Sign up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="dob">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="checkBox">CheckBox</string>
+    <string name="signupButton">Sign up</string>
+    <string name="agree">Agree</string>
+    <string name="register">Register</string>
+    <string name="btn">Show</string>
+
+</resources>

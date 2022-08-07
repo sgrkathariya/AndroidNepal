@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_marginTop="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome \n To \n ANDROID NEPAL"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/tv_username"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_login"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tv_password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_text_button"></Button>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerInParent="true"
+        android:id="@+id/textLabel"
+        android:text="@string/text_view_name_signup" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textLabel"
+        android:layout_centerInParent="true"
+        android:text="@string/signup_button"></Button>
+</RelativeLayout>
